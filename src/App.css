@@ -96,3 +96,10 @@ button:hover{
     background-color: rgba(41, 92, 75, 0.526);
 
 }
+
+.theBOX{
+    border-style: dotted;
+    border-radius: 50%;
+    margin:20px;
+    
+}
