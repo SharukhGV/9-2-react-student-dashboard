@@ -1,0 +1,98 @@
+/* GRID CREATION */
+.wrapper{
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+  height: 100vh;
+  
+}
+
+
+/* HEADING */
+.a{
+    grid-area: 1/1/3/4;
+    background-color: rgba(104, 248, 154, 0.465);
+    text-align:center ;
+    padding:2em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+
+/* SIDEBAR OF COHORTS */
+.b{
+    grid-area: 1/1/2/2;
+    background-color: rgba(0, 255, 183, 0.182);
+    text-align:center ;
+    padding:2em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    overflow-y:auto; 
+
+    /* overflow:auto makes the content fit the div and allow scrolling */
+}
+
+
+/* COHORT RENDERED */
+.c{
+    grid-area: 1/2/2/4;
+    background-color: rgba(254, 254, 254, 0.331);
+    text-align:center ;
+    padding:2em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y:auto;
+
+}
+
+/* Comment Section */
+.d{
+    grid-area: 7/1/9/4;
+    background-color: rgba(255, 187, 0, 0.345);
+    text-align:center ;
+    padding:2em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y:auto; 
+
+
+}
+
+.e{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+
+
+    grid-area: 3/1/7/4;
+    background-color: rgb(255, 255, 255);
+    text-align:center ;
+    padding:2em 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow-y:auto;  */
+
+
+
+}
+
+/* 
+
+li {list-style-type: none;} */
+
+
+
+/* STUDENTS */
+
+
+.students{
+
+    width:auto;
+    height: auto;
+    border-style: ridge;
+    margin:auto;
+    
+}
+
+button:hover{
+
+    background-color: rgba(41, 92, 75, 0.526);
+
+}
